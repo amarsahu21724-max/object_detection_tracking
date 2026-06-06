@@ -16,10 +16,6 @@ The application is built with Streamlit and displays detected objects with bound
 * Real-time bounding boxes and tracking IDs
 * Streamlit-based user interface
 
-## Demo
-
-Try the app: 
-
 ## Technologies Used
 
 * Python
@@ -44,6 +40,7 @@ object_detection_tracking/
     ├── video2.mp4
     └── ...
 ```
+for better object detection use yolov8m.pt  or yolov8l.pt locally
 
 ## Installation
 
