@@ -7,7 +7,7 @@ from deep_sort_realtime.deepsort_tracker import DeepSort
 
 st.title("🎯 Object Detection & Tracking")
 
-model = YOLO("yolov8s.pt")
+model = YOLO("yolov8n.pt")
 tracker = DeepSort(max_age=30)
 
 source = st.selectbox(
@@ -44,7 +44,13 @@ if cap:
         if not ret:
             break
 
-        frame = cv2.resize(frame, (800, 500))
+        # Resize frame
+        height, width = frame.shape[:2]
+
+        new_width = 800
+        new_height = int(
+            height * (new_width / width)
+        )
 
         detections = []
 
