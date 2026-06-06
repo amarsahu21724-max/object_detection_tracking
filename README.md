@@ -37,7 +37,7 @@ object_detection_tracking/
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
-├── yolov8s.pt
+├── yolov8n.pt
 │
 └── dataset/
     ├── video1.mp4
