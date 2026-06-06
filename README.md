@@ -40,7 +40,7 @@ object_detection_tracking/
     ├── video2.mp4
     └── ...
 ```
-for better object detection use yolov8m.pt  or yolov8l.pt locally
+for better object detection use yolov8m.pt  or yolov8l.pt locally instead of yolov8n.pt
 
 ## Installation
 
